@@ -1,0 +1,78 @@
+nav.menuLateral{
+    background-color: #01264D;
+    width: 80px;
+    height: 100vh;
+    padding: 40px 0 40px 1%;
+    box-shadow: 2px 0 0 #2ECC71;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .4s;
+}
+
+nav.menuLateral.expandir{
+    width: 300px;
+    
+}
+
+
+.btnExpandir{
+    width: 100%;
+    padding-left: 10px;
+}
+
+.btnExpandir i{
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.itemMenu{
+    transition: .3s;
+    width: 90%;
+}
+
+ul li.ativo{
+    background-color: #001F3F;
+    border-radius: 1rem;
+    width: 90%;
+}
+
+ul li.itemMenu:hover{
+    background-color: #001F3F;
+    border-radius: 1rem;
+    width: 90%;
+}
+
+ul li.itemMenu a{
+    color: #2ECC71;
+    font-size: 20px;
+    padding: 20px 4%;
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.itemMenu a .txtLink{
+    margin-left: 70px;
+    transition: .5s;
+    opacity: 0;
+}
+
+nav.menuLateral.expandir .txtLink{
+    margin-left: 40px;
+    opacity: 1;
+}
+
+ul li.itemMenu a .icon i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
