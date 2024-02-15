@@ -1,4 +1,159 @@
 .head{
     margin-left: 100px;
+    color: white;
     margin-top: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.abrir{
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: 2px solid transparent;
+    background-color: orange;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    box-sizing: border-box; 
+}
+
+.abrir:hover{
+    border: 2px solid white;
+    transition: .2s;
+}
+
+.end{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-right: 2rem;
+    flex-direction: column;
+}
+
+p{
+    font-size: 1.5rem;
+
+}
+
+.background{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0,0,0,0.7);
+    z-index: '1000';
+    transition: 0.5s;
+}
+
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 100px;
+    background-color: #fff;
+    border-radius: 1rem;
+    border: 5px solid black;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    transition: 0.5s;
+}
+
+.salvar{
+   padding: 1rem;
+   font-size: 1rem;
+   border-radius: 2rem;
+   border: none;
+   background-color: orange;
+   color: white;
+   font-weight: bolder;
+   cursor: pointer;
+   display: flex;
+   
+}
+
+.close {
+    position: absolute;
+    font-size: 1.5rem;
+    top: 10px;
+    left: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+    padding: 0.5rem; /* Ajuste o tamanho do botão conforme necessário */
+    border-radius: 50%; /* Transforma o botão em um círculo */
+    height: 2rem; /* Define a altura do botão */
+    width: 2rem; /* Define a largura do botão */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .close:hover {
+    background-color: rgba(255, 0, 0, 0.8); /* Ajuste a cor de fundo do botão ao passar o mouse */
+  }
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin: 1rem;
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    outline: none;
+    border: solid black 2px;
+    font-size: 1rem;
+}
+
+input::-webkit-inner-spin-button{
+    display: none;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    border-top: -5rem;
+}
+
+.treinos{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    width: 99%;
+}
+
+.boteditar{
+    margin-bottom: 1rem;
+    margin-left: 95%;
+    height: 3rem;
+    width: 3rem;
+    font-size: 2rem;
+    border: none;
+    background-color: orange;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.end{
+    display: flex;
 }

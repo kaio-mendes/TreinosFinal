@@ -42,8 +42,8 @@ function calc() {
           </div>
           <h1>Calcular IMC</h1>
           <form>
-            <input type="number" placeholder='Peso' min="0" id="height"></input>
-            <input type="number" placeholder='Altura' min="0" id="weight"></input>
+            <input type="number" placeholder='Altura' min="0" id="height"></input>
+            <input type="number" placeholder='Peso' min="0" id="weight"></input>
           </form>
           <div className={styles.calc}>
             <button className={styles.calcular} onClick={calc}>Calcular</button>
