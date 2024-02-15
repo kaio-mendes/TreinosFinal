@@ -8,6 +8,7 @@ nav.menuLateral{
     top: 0;
     left: 0;
     transition: .4s;
+    overflow: hidden;
 }
 
 nav.menuLateral.expandir{
