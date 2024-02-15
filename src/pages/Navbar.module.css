@@ -7,25 +7,27 @@ nav.menuLateral{
     position: fixed;
     top: 0;
     left: 0;
-    overflow: hidden;
     transition: .4s;
 }
 
 nav.menuLateral.expandir{
     width: 300px;
-    
+    position: fixed;
 }
-
 
 .btnExpandir{
     width: 100%;
-    padding-left: 10px;
+    padding-left: 15px;
+    padding-bottom: 20px;
 }
+
+
 
 .btnExpandir i{
     color: white;
     font-size: 24px;
     cursor: pointer;
+  
 }
 
 ul{
