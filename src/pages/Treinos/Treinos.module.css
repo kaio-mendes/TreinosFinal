@@ -62,10 +62,12 @@ p{
     color: black;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
     height: 90%;
     transition: 0.5s;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .salvar{
@@ -97,15 +99,16 @@ p{
     justify-content: center;
     align-items: center;
     color: white;
-  }
+}
   
-  .close:hover {
+.close:hover {
     background-color: rgba(255, 0, 0, 0.8); /* Ajuste a cor de fundo do botão ao passar o mouse */
-  }
+}
 
 form{
     display: flex;
     flex-direction: column;
+    
 }
 
 input{
@@ -142,18 +145,12 @@ h1{
     width: 99%;
 }
 
-.boteditar{
-    margin-bottom: 1rem;
-    margin-left: 95%;
-    height: 3rem;
-    width: 3rem;
-    font-size: 2rem;
-    border: none;
-    background-color: orange;
-    border-radius: 100%;
-    cursor: pointer;
-}
-
 .end{
     display: flex;
 }
+
+.botao{
+    margin-top: -5rem;
+    flex-wrap: wrap;
+}
+

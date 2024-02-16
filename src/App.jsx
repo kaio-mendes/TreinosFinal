@@ -18,12 +18,11 @@ function App() {
             <Route path="/registros" element={<Registros/>}/>
             <Route path="/metas" element={<Metas/>}/>
             <Route path="/perfil" element={<Perfil/>}/>
-
         </Routes>
       </Router>
 
     </>
   )
 }
-
+  
 export default App

@@ -74,7 +74,9 @@ p{
    font-weight: bolder;
    cursor: pointer;
    display: flex;
+   margin: 0.5em;
    
+   justify-content: center;
 }
 
 .close {
@@ -118,3 +120,13 @@ input::-webkit-inner-spin-button{
     display: none;
 }
 
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc{
+    display: flex;
+    flex-direction: column;
+}

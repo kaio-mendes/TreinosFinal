@@ -2,10 +2,8 @@ import { useState } from 'react';
 import styles from './Metas.module.css'
 import Modal from './Modal';
 
-
 function Metas(){
     const [openModal, setOpenModal] = useState(false);
-    const [ic, setIMC] = useState(null);
 
 
     return(
