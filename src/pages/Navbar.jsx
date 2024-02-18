@@ -43,12 +43,7 @@ function Navbar() {
                     </Link>
                 </li>
 
-                <li className={`${styles.itemMenu} ${activeItem === 'registros' ? styles.ativo : ''}`} onClick={() => click('registros')}>
-                    <Link to="/registros">
-                        <span className={styles.icon}><i className="bi bi-journal-bookmark-fill"></i></span>
-                        <span className={styles.txtLink}>Registros</span>
-                    </Link>
-                </li>
+    
 
                 <li className={`${styles.itemMenu} ${activeItem === 'metas' ? styles.ativo : ''}`} onClick={() => click('metas')}>
                     <Link to="/metas">
@@ -57,12 +52,7 @@ function Navbar() {
                     </Link>
                 </li>
 
-                <li className={`${styles.itemMenu} ${activeItem === 'perfil' ? styles.ativo : ''}`} onClick={() => click('perfil')}>
-                    <Link to="/perfil">
-                        <span className={styles.icon}><i className="bi bi-person"></i></span>
-                        <span className={styles.txtLink}>Perfil</span>
-                    </Link>
-                </li>
+            
             </ul>
             </nav>
 

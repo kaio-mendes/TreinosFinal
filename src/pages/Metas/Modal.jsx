@@ -61,7 +61,7 @@ export default function Modal({ isOpen, setModalOpen }) {
                     </form>
                     <div className={styles.calc}>
                         <button type="button" onClick={calc} className={styles.calcular}>Calcular</button>
-                        <button type="button" onClick={post} className={styles.calcular}>Salvar</button>
+                        <button type="button" onClick={() => { post(); setModalOpen(false); }} className={styles.calcular}>Salvar</button>
                     </div>
                     <p id="imc"></p>
                     <p id="res"></p>
